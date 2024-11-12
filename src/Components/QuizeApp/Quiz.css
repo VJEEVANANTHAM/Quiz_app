@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
+
+    
+.header{
+    display: flex;
+    flex-direction: column;
+    width:  auto;
+    height:  140px;
+    background: #520FB7;
+    margin: -10px;
+}
+p{    
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-top:2.5%;
+    width: 136px;
+    height: 28px;
+    font-family: Figtree;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+        
+.quiz-container{
+    display: flex;
+    flex-direction:column;
+    row-gap: 5px;
+    width: 564px;
+    height: 340px;
+    padding: 60px 42px 60px 42px;
+    border-radius: 20px;
+    opacity: 0px;
+    margin-top: 3%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px 0px #35074B40;
+}
+.options{
+    font-family: 'figtree';
+    margin-top: 4%;
+}
+.options label {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.options input[type="radio"] {
+    margin-right: 10px;
+}
+
+.question-number{
+    font-family: 'figtree';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #808080;   
+    text-align: center; 
+    margin: 0%;
+}
+.question-title{
+font-family: 'figtree';
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+color: #292929;
+margin: 0%;
+
+}
+
+button{
+width: 482px;
+height: 48px;
+padding: 0px 32px 0px 32px;
+gap: 10px;
+border-radius: 50px 50px 50px 50px;
+opacity: 0px;
+
+}
+.submit-button {
+    background: #520FB7;
+
+    display: flex;
+    align-items: center;  
+    justify-content: center; 
+    font-family: 'figtree';
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;         
+    color: #FFFFFF;
+    margin-top: 4%;
+
+  }
+  @media (max-width: 768px) {
+    .header {
+        height: 100px;
+        max-width: -10px;
+    }
+
+    p {
+        font-size: 24px;
+        margin-top: 1.5%;
+    }
+
+    .quiz-container {
+        width: 90%;
+        height: auto;
+        padding: 30px 20px;
+        margin-top: 10%;
+    }
+
+    .question-number, .question-title {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+
+    button {
+        width: 100%;
+        height: 40px;
+        padding: 0 16px;
+    }
+
+    .submit-button {
+        font-size: 14px;
+    }
+}
